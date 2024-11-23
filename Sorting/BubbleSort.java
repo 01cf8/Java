@@ -1,13 +1,27 @@
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class BubbleSort {
     public static void main(String[] args) {
-        int[] array = { 5, 2, 9, 1, 5, 6 };
-        System.out.println("Original Array: " + Arrays.toString(array));
+        Scanner sc = new Scanner(System.in);
+        int[] array = new int[5];
+        System.out.println("Enter array:");
+        for (int i = 0; i < array.length; i++) {
+            array[i] = sc.nextInt();
+        }
+        System.out.println();
+        System.out.println("Original Array: ");
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
+        }
 
         bubbleSort(array);
 
-        System.out.println("Sorted Array: " + Arrays.toString(array));
+        System.out.println("Sorted Array: ");
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
+        }
+    }
 
     }
 
