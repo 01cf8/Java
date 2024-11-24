@@ -1,8 +1,0 @@
-Qualities of an Project:
-1.Uniqeness
-2.Good User Interface
-3.Database/API
-4.Hosted project
-5.Model View Control Framework
-Project to create:
-1.Portifolio Website
