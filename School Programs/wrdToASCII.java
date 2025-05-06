@@ -24,14 +24,13 @@ public class wrdToASCII {
 
         for (int i = 0; i < len; i++) {
             char ch = wrd.charAt(i);
-            int ascii = (int) ch;
-            System.out.println(ch + " = " + ascii);
+            System.out.println(ch + " = " + (int) ch);
 
-            if (ascii < lowest) {
-                lowest = ascii;
+            if ((int) ch < lowest) {
+                lowest = ch;
             }
-            if (ascii > highest) {
-                highest = ascii;
+            if ((int) ch > highest) {
+                highest = ch;
             }
         }
 
