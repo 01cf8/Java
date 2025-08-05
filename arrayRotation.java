@@ -26,9 +26,8 @@ public class arrayRotation {
     }
     void print(){
         System.out.println("Rotated array:");
-        //noinspection ForLoopReplaceableByForEach
-        for(int i = 0; i < arr.length; i++){
-            System.out.print(arr[i] + " ");
+        for(int i : arr){
+            System.out.print(i + " ");
         }
     }
 
