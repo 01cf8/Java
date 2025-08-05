@@ -8,7 +8,6 @@ public class arrayRotationPerformanceTest {
     public void runPerformanceTests() {
         System.out.println("=== Array Rotation Performance Tests ===\n");
         
-        // Test different array sizes
         int[] sizes = {1000, 5000, 10000, 50000};
         int[] rotations = {100, 1000, 10000, 100000};
         
@@ -24,16 +23,13 @@ public class arrayRotationPerformanceTest {
     }
     
     private void testPerformance(int arraySize, int rotationCount) {
-        // Create test array
         arrayRotation arr = new arrayRotation();
         arr.arr = new int[arraySize];
         
-        // Fill with test data
         for (int i = 0; i < arraySize; i++) {
             arr.arr[i] = i + 1;
         }
         
-        // Measure rotation time
         long startTime = System.nanoTime();
         arr.rotate(rotationCount);
         long endTime = System.nanoTime();

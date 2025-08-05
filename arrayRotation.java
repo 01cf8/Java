@@ -13,17 +13,14 @@ public class arrayRotation {
         System.out.println();
     }
     void rotate(int n){
-        // Optimize: reduce rotations using modulo
         n = n % arr.length;
-        if(n == 0) return; // No rotation needed
+        if(n == 0) return;
         
-        // Use reversal algorithm for RIGHT rotation with O(length) time complexity
-        reverse(0, arr.length - 1);           // Reverse entire array
-        reverse(0, n - 1);                    // Reverse first n elements
-        reverse(n, arr.length - 1);          // Reverse remaining elements
+        reverse(0, arr.length - 1);
+        reverse(0, n - 1);
+        reverse(n, arr.length - 1);
     }
     
-    // Helper method to reverse array elements between start and end indices
     void reverse(int start, int end){
         while(start < end){
             int temp = arr[start];
