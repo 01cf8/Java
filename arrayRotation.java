@@ -15,9 +15,10 @@ public class arrayRotation {
     }
     void rotate(int n){
         int p = 1;
+        int i;
         while(p <= n){
             int first = arr[0];
-            for(int i = 0; i < arr.length-1; i++){
+            for(i = 0; i < arr.length-1; i++){
                 arr[i] = arr[i+1];
             }
             arr[arr.length-1] = first;
