@@ -10,8 +10,8 @@ public class fibonacciSeries {
     public static void main(String[] args) {
         int n = 10;
         System.out.println("Fibonacci Series up to " + n + " terms:");
-        for(int i = 1; i <= n; i++){
-            System.out.print(fibonacci(i) + " ");
+        for(int j = 1; j <= n; j++){
+            System.out.print(fibonacci(j) + " ");
         }
         System.out.println();
     }
