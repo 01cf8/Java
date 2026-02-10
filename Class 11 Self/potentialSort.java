@@ -15,6 +15,7 @@ public class potentialSort {
                 int c = (int) words[i].charAt(j);
                 poten[i] += c;
             }
+            
         }
         for(int i = 0; i<n-1;i++){
             for(int j = 0; j<n-i-1; j++){
