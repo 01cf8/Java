@@ -4,8 +4,10 @@
 This repository is an educational workspace dedicated to learning and practicing Java programming concepts. It contains a large collection of standalone Java programs categorized by topics, school grade levels, and exam preparation. 
 
 The project structure is organized into various directories focusing on specific programming paradigms:
-- **Core Concepts:** Arrays, Conditional Statements, Functions, Loops, and Strings.
-- **Number Theory & Algorithms:** Programs determining specific number properties (e.g., Adam, Amicable, Armstrong, Spy, Fibonacci).
+- **Core Concepts:** Categorized by topic in folders like `Java Arrays for School`, `Java Contitional Statements for School`, `Java Functions for School`, `Java Loops for School`, and `Java Strings for School`.
+- **Advanced & General Concepts:** Broader Java principles covered in `Java Concepts` and general practice in `Java Miscellaneous`.
+- **Number Theory & Algorithms:** Programs determining specific number properties (e.g., Adam, Amicable, Armstrong, Spy, Fibonacci) found in the `Number` directory and various school prep folders.
+- **Projects & GUI:** Standalone applications like the `Flappy Bird` game.
 - **School & Exam Prep:** Folders specifically tailored for academic study, such as `Class 11 Self`, `School Programs`, `Specimen 2024`, and `UT1 2024`.
 - **Reference Materials:** The `Java Notes` directory contains PDFs, cheat sheets, and other study materials.
 
